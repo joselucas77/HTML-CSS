@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            Ultilizar px ou em.
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            /* Lighter normal bold bolder*/
+        }
+        h1 {
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+            text-decoration: underline;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ut mollitia. Quibusdam, quod vel. A reiciendis qui praesentium temporibus error tenetur dolores veritatis officia? Distinctio eveniet aut nulla? Eum, id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quasi? Sit aperiam consequuntur quas error, tenetur unde! Sapiente eaque neque molestiae alias sequi, vitae labore distinctio ab aliquam voluptatibus officia.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatum blanditiis, vero, voluptatibus quidem assumenda incidunt laborum perspiciatis earum eum accusamus nihil sapiente. Dolorum repellendus id ipsum mollitia eius harum!</p>
+</body>
+</html>

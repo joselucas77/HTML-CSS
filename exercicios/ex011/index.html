@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagen dinâmica</h1>
+    <p>Tente abrir esse site em várias dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador.</p>
+
+    <picture>
+        <!--seguir uma ordem-->
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagen flexível">
+    </picture> 
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!--<audio src="midia/shine-on.mp3" controls></audio>--> <!--esta é uma maneira, porém em alguns navegadores pode não funcionar-->
+    <!--colocar "controls autoplay" ou apenas "controls"-->
+    <!--compativel com MP3 WAV OGG-->
+    <audio preload="metadata" controls loop>
+        <!--a ordem é de cima para baixo-->
+        <source src="midia/shine-on.mp3" type="audio/mpeg"><!--para audios e formatoMP3-->
+        <source src="midia/shine-on.ogg" type="audio/ogg"> <!--para audios e formato OGG-->
+        <source src="midia/shine-on.wav" type="audio/wav"> <!--para audios e formato WAV arquivos muito pesados-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/shine-on.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
