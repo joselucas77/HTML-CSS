@@ -1,38 +1,57 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-body{
-    background-color: indigo;
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
 }
 
-main{
-    justify-content: center;
-    max-width: 600px;
-    background-color: gainsboro;
-    margin: 2rem auto;
- 
+caption {
+    font-size: 2em;
+    background-color: gray;
 }
 
-main ul{
-    list-style: none;
-}
-
-
-main ul li{
+.exercicio {
+    border: 1px solid #383838;
     padding: 10px;
-    background-color: #cdcdcd;
-    margin: 1rem 0;
-}
-main a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
+    background-color: white;
+    text-align: center;
 }
 
-main a:hover{
-    color: #fff;
+.exercicio:hover {
+    background-color: darkgrey;
+}
+
+.desafio {
+    border: 1px solid #383838;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+.desafio:hover {
+    background-color: darkgray;
+}
+
+th {
+    border: 1px solid #383838;
+    padding: 10px;
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #383838;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
