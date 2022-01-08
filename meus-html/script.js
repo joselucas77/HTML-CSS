@@ -1,1 +1,0 @@
-window.alert('Vovê clicou no botão!')
