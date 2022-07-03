@@ -1,0 +1,60 @@
+* Conteúdo em HTML *
+
+<h1>Exemplo de título</h1>
+("<h1>" estes simbolos é chamdo de 'abertura de tag'
+, ultilizados ao iniciar um título,e "</h1>" ao finaliza-lo).
+
+<p>Exemplo de parágrafo</p>
+("<p>" ultilizado ao iniciar um parágrafo,e "</p>" ao finaliza-lo).
+
+
+<img src="foto.png" alt="Exemplo da foto">
+("img" é a abertura da tag, "src" e "alt" são parâmetros,
+ e o que esta entre aspas " " é chamado de valor)
+
+* Estilo em CSS *
+
+h1{
+font-family: Arial;
+font-size: 20pt;
+color: blue;
+}
+("h1" é o seletor; "font-family","font-size","color"
+ são chamadass de propriedade; "Arial", "20pt" e "blue" são os valores;
+ por fim, o conjunto da propriedade com o valor é chamada de declaracão)
+OBS:Sempre ao final de declaracão tem que ter um ponto e virgula ";".
+
+* Etrutura básica de documento HTML *
+
+<!DOCTYPE html> <!--serve para diser qual linguagem, nessse caso HTML-->
+<html lang="pt-br">  <!--serve para dizer uma lingua, no caso Português-BR-->
+.  <head>  <!--aqui é a área "cabeça", chamada de área de configuracão--> 
+.  .  <meta charset="UTF-8">  <!--O "UTF-8" é uma tabela, aqual dá compatibilidade com caracteres,um exemplo: acentuacões-->
+.  .  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--O site vai ocupar toda parte branca e irá ser visualizado numa escala de 100%-->                     
+.  .  <title>Document</title>  <!--Título do site-->
+.  <head>
+.  <body>  <!--aque é a área do "corpo"-->
+.  .  <h1>Olá, mundo!</h1>  <!--Título da matéria-->
+.  <body>
+</html>
+
+*Front-end e Back-end *
+client-side/lado do cliente (front-end)
+-usa tecnologias como: html,css,javascript.
+server-side/lado do servidor (back-end)
+-usa linguaguens como: php,javascript,c#,python,java.
+Full stack é um profissional que trabalha tanto com Front-end e Back-end.
+
+* Formato de imagens *
+
+jpg <!--alta compactação-->
+png <!--transparência-->
+
+
+
+
+
+
+
+
+
